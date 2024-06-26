@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  /*Colors*/
+
+  /*Primary*/
+
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+
+  /*Neutral*/
+
+  --Dark-Grayish-lue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+.Contai-Cabecera,
+.Description,
+.Description-Computer,
+.Access-Porta-Contai,
+.Flujo-Contai,
+.Contai-Pie {
+  text-align: center;
+}
+
+.Button-iOS,
+.Button-Mac {
+  padding: 0.9rem 5.5rem;
+  color: white;
+  text-align: center;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Bai Jamjuree", sans-serif;
+  border-radius: 30px;
+  transition: all 0.6s ease;
+}
+
+.Button-iOS:hover,
+.Button-Mac:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.title-Cabecera,
+.title-descri,
+.title-computer,
+.title-access,
+.title-flujo,
+.title-flujo-resumen,
+.title-pie {
+  color: var(--Dark-Grayish-lue);
+  font-weight: 600;
+}
+
+.Sub-Title-Cabecera,
+.sub-title-descri,
+.sub-title-computer,
+.sub-title-access,
+.sub-title-flujo,
+.sub-title-flujo-resu,
+.sub-title-pie {
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  line-height: 1.6;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+header {
+  background-color: white;
+  background-image: url(../img/bg-header-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 2rem;
+}
+
+.Contai-Logo .Logo {
+  height: 150px;
+}
+
+.Contai-Cabecera-Text {
+  margin-top: 3rem;
+}
+
+.Contai-Cabecera-Text .title-Cabecera {
+  font-size: 2.2rem;
+}
+
+.Buttons-Contai-Cabe {
+  margin-top: 2rem;
+}
+
+.Buttons-Contai-Cabe .Button-iOS {
+  background-color: var(--Strong-Cyan);
+  border-bottom: 4px solid rgb(33, 157, 133);
+}
+
+.Buttons-Contai-Cabe .Button-Mac {
+  background-color: var(--Light-Blue);
+  margin-top: 1.5rem;
+  border-bottom: 4px solid rgb(87, 87, 239);
+}
+
+main {
+  margin: 3rem 0 0 0;
+  padding: 2rem;
+}
+
+.Description .title-descri {
+  font-size: 1.9rem;
+}
+
+.Description-Computer {
+  margin-top: 3rem;
+}
+
+.Computer-Resumen {
+  margin: 2rem 0 0 0;
+}
+
+.Computer-Resumen .title-computer {
+  font-size: 1.5rem;
+}
+
+.Img-Computer-Contai .Img-Computer {
+  height: 260px;
+}
+
+.Access-Porta-Contai {
+  margin-top: 7rem;
+}
+
+.Access-Porta-Contai .title-access {
+  font-size: 1.9rem;
+}
+
+.Access-Porta-Contai .Img-Access {
+  height: 220px;
+  margin-top: 3rem;
+}
+
+.Flujo-Contai {
+  margin-top: 6rem;
+}
+
+.Text-Flujo-Contai .title-flujo {
+  font-size: 1.9rem;
+}
+
+.Flujo-Cards {
+  margin-top: 4rem;
+}
+
+.Flujo-Resumen {
+  margin-top: 3rem;
+}
+
+.Flujo-Resumen .title-flujo-resumen {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.Marcas-Contai {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Contai-Img-Marcas .Img-Marcas {
+  height: 40px;
+}
+
+.Contai-Img-Marcas .Img-Marcas-HP {
+  height: 50px;
+}
+
+.Contai-Pie-Text {
+  margin-top: 7rem;
+}
+
+.Contai-Pie-Text {
+  font-size: 1.3rem;
+}
+
+footer {
+  background-color: rgb(227, 234, 246);
+  text-align: center;
+  margin-top: 4rem;
+  padding: 4rem 0;
+}
+
+.Logo-Pie .Logo {
+  height: 60px;
+}
+
+.Lista {
+  margin-top: 2rem;
+}
+
+.Lista ul {
+  list-style-type: none;
+}
+
+.Lista ul li {
+  margin-top: 1rem;
+}
+
+.Lista ul li a {
+  text-decoration: none;
+  color: var(--Dark-Grayish-lue);
+  font-weight: 400;
+  font-size: 1.1rem;
+  transition: all 0.2s ease;
+}
+.Lista ul li a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.Redes-Sociales {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.Redes-Sociales a {
+  color: var(--Dark-Grayish-lue);
+  font-weight: 400;
+  font-size: 2rem;
+  transition: all 0.6s ease;
+}
+
+.Redes-Sociales a:hover {
+  color: var(--Strong-Cyan);
+}
+
+@media (min-width: 1024px) {
+  header {
+    background-image: url(../img/bg-header-desktop.png);
+  }
+
+  .Contai-Cabecera-Text .title-Cabecera {
+    font-size: 2.8rem;
+  }
+
+  .Contai-Cabecera-Text .Sub-Title-Cabecera {
+    padding: 0 26rem;
+  }
+
+  .Buttons-Contai-Cabe {
+    margin-top: 1rem;
+  }
+
+  .Button-iOS,
+  .Button-Mac {
+    padding: 1rem 3rem;
+    margin-right: 1rem;
+  }
+
+  .Description {
+    padding: 0 23rem;
+  }
+
+  .Description .title-descri {
+    font-size: 2.1rem;
+  }
+
+  .Description-Computer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 6rem;
+  }
+
+  .Computer-Text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: left;
+    margin-top: 1.5rem;
+  }
+
+  .Computer-Resumen {
+    margin: 1rem 0 0 0;
+    padding-right: 20rem;
+  }
+
+  .Img-Computer-Contai .Img-Computer {
+    height: 550px;
+    position: relative;
+    left: -5.3rem;
+  }
+
+  .Access-Porta-Contai {
+    margin-top: 8rem;
+  }
+
+  .Access-Porta-Contai .title-access {
+    font-size: 2.1rem;
+  }
+
+  .Access-Porta-Contai .sub-title-access {
+    padding: 0 24rem;
+  }
+
+  .Access-Porta-Contai .Img-Access {
+    height: 550px;
+  }
+
+  .Flujo-Cards {
+    display: grid;
+    grid-template: auto / auto auto auto;
+    margin-top: 2rem;
+    padding: 0 2rem;
+  }
+
+  .Text-Flujo-Contai .title-flujo {
+    font-size: 2.1rem;
+  }
+
+  .Flujo-Resumen {
+    padding: 0 2.3rem;
+  }
+
+  .Flujo-Resumen:nth-of-type(2),
+  .Flujo-Resumen:nth-of-type(3) {
+    margin-top: 3.5rem;
+  }
+
+  .Marcas-Contai {
+    flex-direction: row;
+    margin-top: 8rem;
+    gap: 90px;
+  }
+
+  .Contai-Pie-Text .title-pie {
+    font-size: 2.1rem;
+  }
+
+  .Contai-Pie-Text .sub-title-pie {
+    padding: 0 23rem;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    text-align: left;
+  }
+
+  .Lista nav {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-top: -1rem;
+  }
+}
